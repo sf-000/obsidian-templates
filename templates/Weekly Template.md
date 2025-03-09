@@ -3,7 +3,7 @@ Location:
 Tags: weeklyreviews
 Aliases:
 Enjoyment:
-Date: <%moment(tp.file.title).startOf('isoWeek').format("YYYY-MM-DD") %>
+Date: <% moment(tp.file.title).startOf('isoWeek').format("YYYY-MM-DD") %>
 ---
 <%*
 await tp.file.move(`Journal/Weekly/${tp.file.title}`);
